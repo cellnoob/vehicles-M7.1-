@@ -1,0 +1,66 @@
+<head>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+
+            text-align: center;
+            padding-top: 5%;
+            background: linear-gradient(to bottom, #fff, #dadada);
+        }
+
+        .table {
+
+            justify-content: center;
+            margin-left: 2%;
+            margin-right: 2%;
+            table-layout: fixed;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Ejercicio Vehiculos</h3>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Marca Rueda 1</th>
+                <th scope="col">Diametro Rueda 1</th>
+                <th scope="col">Marca Rueda 2</th>
+                <th scope="col">Diametro Rueda 2</th>
+            </tr>
+
+
+            <tr>
+                <th scope="row"><input type="text" id="inputMarca1"></th>
+                <th scope="row"><input type="text" id="inputDiametro1"></th>
+                <th scope="row"><input type="text" id="inputMarca2"></th>
+                <th scope="row"><input type="text" id="inputDiametro2"></th>
+            </tr>
+            <tr>
+                <th scope="col">Marca Rueda 3</th>
+                <th scope="col">Diametro Rueda 3</th>
+                <th scope="col">Marca Rueda 4</th>
+                <th scope="col">Diametro Rueda 4</th>
+            </tr>
+            <tr>
+                <th scope="row"><input type="text" id="inputMarca3"></th>
+                <th scope="row"><input type="text" id="inputDiametro3"></th>
+                <th scope="row"><input type="text" id="inputMarca4"></th>
+                <th scope="row"><input type="text" id="inputDiametro4"></th>
+            </tr>
+        </thead>
+    </table>
+
+
+    <p id="wheelInfo"></p>
+    <button class="btn btn-dark" onclick="createWheels()">Add Wheels</button>
+
+
+    <div id="display"></div>
+</body>
+
+<!-- onclick="createCar('1212SDS','SEAT','ROJO')" -->
