@@ -1,4 +1,7 @@
-let car: Car = new Car("","","");
+let car: Car;
+car = new Car("plate", "brand", "color");
+
+//= new Car("","","");
 let wheelsForm = document.getElementsByClassName("wheels-form")[0];
 
 

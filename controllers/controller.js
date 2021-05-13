@@ -1,5 +1,7 @@
 "use strict";
-var car = new Car("", "", "");
+var car;
+car = new Car("plate", "brand", "color");
+//= new Car("","","");
 var wheelsForm = document.getElementsByClassName("wheels-form")[0];
 //FUNCIONES
 //01 FUNCION MOSTRAR COCHE
